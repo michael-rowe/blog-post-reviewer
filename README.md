@@ -9,6 +9,28 @@ macro-architecture, narrative momentum, signal-to-noise ratio, signposting quali
 visual ergonomics, cross-section coherence, and resolution. It returns a prioritised
 list of changes, not a rewrite.
 
+## Opinionated by design
+
+This skill reflects one practitioner's view of what makes a blog post work — not a universal standard. The framework, the heuristics, and the defaults are all judgment calls. Use it as a starting point, not a rulebook.
+
+It also makes several assumptions about how you work:
+
+- **Markdown files**: drafts are plain text with optional YAML frontmatter; the skill reads frontmatter fields like `subtype` to adjust its behaviour
+- **Claude Code**: the skill runs inside Claude Code and expects `config.md` to be present at the project root (it's optional but read automatically if found)
+- **Long-form prose posts**: the framework is designed for substantive standalone posts — not newsletter issues, social media threads, or micro-posts
+- **English**: no support for other languages
+- **Single-author, personal-register writing**: the audience utility check assumes one author writing in their own voice
+
+The framework itself is opinionated in specific ways:
+
+- The seven structural criteria are what the author considers load-bearing; others may weight things differently
+- The six signpost categories and seven macro-structural frameworks are a curated selection, not an exhaustive taxonomy
+- The ~25% reduction heuristic for first drafts is a working rule of thumb, not a measurement
+- Mobile paragraph length (3–4 sentences) reflects a particular reading context
+- The Layer Cake and F-Pattern are treated as the two dominant web reading patterns; other patterns exist
+
+If these assumptions don't fit your workflow, the skill files are plain markdown — fork and adapt.
+
 ## Why a structured review?
 
 Good blog posts fail in predictable ways: the structure doesn't match the content
