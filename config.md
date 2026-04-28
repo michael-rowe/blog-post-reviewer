@@ -1,4 +1,4 @@
-# Blog reviewer — configuration
+# Blog reviewer - configuration
 
 Edit this file after installation to personalise the review. The skill reads it
 at the start of every session. Leave any field blank to use the skill's defaults.

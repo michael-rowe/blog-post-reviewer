@@ -3,7 +3,7 @@
 A Claude Code skill for structured review of blog post drafts.
 
 Most writing tools help you write. This one helps you evaluate what you have written
-— before you publish it.
+- before you publish it.
 
 The skill applies a seven-point structural framework to any blog post draft, checking
 macro-architecture, narrative momentum, signal-to-noise ratio, signposting quality,
@@ -18,7 +18,7 @@ repeated throughout, or the conclusion summarises rather than resolves.
 
 A structured review catches these problems systematically. The framework here is
 grounded in cognitive load theory, Joseph Sugarman's Slippery Slide principle, and
-the craft practices of writers like Paul Graham and Tim Urban — distilled into a
+the craft practices of writers like Paul Graham and Tim Urban - distilled into a
 checklist a reviewer can apply consistently.
 
 ## Installation
@@ -41,12 +41,12 @@ with a priority actions list.
 
 After installation, edit `config.md` to personalise the review:
 
-- **Audience** — who you are writing for; the reviewer checks whether content
+- **Audience** - who you are writing for; the reviewer checks whether content
   serves them
-- **Dialect** — British English or American English (default: British English)
-- **Serial comma** — yes or no (default: yes)
-- **Platform** — where you publish; affects metadata and linking guidance
-- **Style notes** — any voice or register preferences
+- **Dialect** - British English or American English (default: British English)
+- **Serial comma** - yes or no (default: yes)
+- **Platform** - where you publish; affects metadata and linking guidance
+- **Style notes** - any voice or register preferences
 
 Leave any field blank to use the defaults.
 
@@ -79,7 +79,7 @@ The skill recognises and evaluates against these frameworks:
 
 ## This skill as part of a wider workflow
 
-This skill covers structural review — the first pass on a draft. A complete blog
+This skill covers structural review - the first pass on a draft. A complete blog
 post review workflow also benefits from:
 
 - **Voice and style review**: checking analytical positioning, conceptual habits,
