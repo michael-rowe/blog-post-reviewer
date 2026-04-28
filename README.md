@@ -2,8 +2,7 @@
 
 A Claude Code skill for structured review of blog post drafts.
 
-Most writing tools help you write. This one helps you evaluate what you have written
-- before you publish it.
+Most writing tools help you write. This one helps you evaluate what you have written before you publish it.
 
 The skill applies a seven-point structural framework to any blog post draft, checking
 macro-architecture, narrative momentum, signal-to-noise ratio, signposting quality,
