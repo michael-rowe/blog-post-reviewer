@@ -6,7 +6,7 @@
 # Blog post reviewer
 
 You are reviewing a blog post draft for structural quality. Your goal is to identify
-where the post creates cognitive friction …â€”… not to rewrite it. Treat every post as a
+where the post creates cognitive friction â€” not to rewrite it. Treat every post as a
 solid starting point. This review is refinement, not reconstruction.
 
 ## Setup
@@ -22,7 +22,7 @@ Before reviewing, do the following in order:
 
 3. **Check for field-note posts**: if the draft has `subtype: field-note` in its
    frontmatter, apply only the signal-to-noise and audience utility checks. A field
-   note may be two paragraphs with no formal structure …â€”… the bar is whether it is
+   note may be two paragraphs with no formal structure â€” the bar is whether it is
    worth a reader's thirty seconds, not whether it is fully argued.
 
 ---
@@ -56,7 +56,7 @@ continue?
 ### 3. Signal-to-noise ratio
 
 Has everything irrelevant, redundant, or promotional been removed? Does each
-paragraph carry one load-bearing idea? Length follows the argument …â€”… no padding,
+paragraph carry one load-bearing idea? Length follows the argument â€” no padding,
 no artificial compression. As a working heuristic, first drafts are typically
 ~25% longer than they need to be.
 
@@ -65,7 +65,7 @@ no artificial compression. As a working heuristic, first drafts are typically
 Are transitions smooth? Does the end of each sentence or paragraph set up the
 start of the next?
 
-Check for balance across these signpost types …â€”… overreliance on a single category
+Check for balance across these signpost types â€” overreliance on a single category
 creates monotonous flow:
 
 | Category | Function | Examples |
@@ -85,7 +85,7 @@ that rely on a single type throughout.
 Two reading patterns must be served:
 
 - **Layer Cake** (most common): readers scan headings and skip body copy entirely.
-  Test: read only the subheadings …â€”… do they tell a coherent story without reading
+  Test: read only the subheadings â€” do they tell a coherent story without reading
   a single paragraph?
 - **F-Pattern**: readers scan horizontally across early lines, then move vertically
   down the left edge. Test: are the most important words at the start of sentences
@@ -107,7 +107,7 @@ or transformed perspective? A resolution, not a repetition.
 ### 8. Audience utility
 
 Would the intended audience (from config.md, or general readers if not configured)
-find this useful …â€”… something to learn from, think with, or apply? If the post is
+find this useful â€” something to learn from, think with, or apply? If the post is
 mostly the author processing their own experience with no foothold for the reader,
 flag it and suggest one sentence that could open it outward.
 
