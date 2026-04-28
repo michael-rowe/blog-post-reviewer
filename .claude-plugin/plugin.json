@@ -1,0 +1,12 @@
+{
+  "name": "blog-post-reviewer",
+  "version": "1.0.0",
+  "description": "Structural review of blog post drafts …â€”… macro-structure, narrative velocity, signal-to-noise ratio, signposting, and visual ergonomics",
+  "author": {
+    "name": "Michael Rowe",
+    "url": "https://github.com/michael-rowe"
+  },
+  "repository": "https://github.com/michael-rowe/blog-post-reviewer",
+  "license": "MIT",
+  "keywords": ["blog", "writing", "review", "structure", "editing", "content"]
+}

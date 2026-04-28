@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "michael-rowe-blog-post-reviewer",
+  "description": "Structural review of blog post drafts …â€”… macro-structure, narrative velocity, signal-to-noise ratio, signposting, and visual ergonomics",
+  "owner": {
+    "name": "Michael Rowe",
+    "email": ""
+  },
+  "plugins": [
+    {
+      "name": "blog-post-reviewer",
+      "description": "Reviews a blog post draft against a structured framework covering macro-structure, narrative velocity, signal-to-noise ratio, signposting, visual ergonomics, and resolution",
+      "source": "./",
+      "category": "productivity",
+      "version": "1.0.0",
+      "license": "MIT",
+      "keywords": ["blog", "writing", "review", "structure", "editing"]
+    }
+  ]
+}
