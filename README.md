@@ -63,7 +63,9 @@ cp ~/.claude/plugins/blog-post-reviewer/skills/blog-reviewer/SKILL.md ~/.claude/
 cp ~/.claude/plugins/blog-post-reviewer/agents/*.md ~/.claude/agents/
 ```
 
-Then copy `config.md` into any project where you want personalised reviews:
+Start a new Claude Code session afterwards so it picks up the new command and
+the four agents. Then copy `config.md` into any project where you want
+personalised reviews:
 
 ```bash
 cp ~/.claude/plugins/blog-post-reviewer/config.md ./config.md
