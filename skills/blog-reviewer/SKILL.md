@@ -1,7 +1,9 @@
-| name | blog-reviewer |
-| description | Structured four-pass review of a blog post draft: structural framework, voice and style, copy editing, and SEO. TRIGGER when the user wants to review or improve a blog post draft before publishing. Reads config.md for audience, dialect, and style preferences. |
-| allowed-tools | Agent, Read |
-| argument-hint | path to draft file |
+---
+name: blog-reviewer
+description: "Structured four-pass review of a blog post draft: structural framework, voice and style, copy editing, and SEO. TRIGGER when the user wants to review or improve a blog post draft before publishing. Reads config.md for audience, dialect, and style preferences."
+allowed-tools: Agent, Read
+argument-hint: path to draft file
+---
 
 # Blog post reviewer
 

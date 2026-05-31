@@ -49,36 +49,58 @@ checklist a reviewer can apply consistently.
 
 ## Installation
 
+There are two ways to install. Both register the skill and its four review agents;
+they differ only in how you invoke the result.
+
+### Option 1 — manual install (gives the short `/blog-reviewer` command)
+
+Clone the repository, then copy the skill and agents into your user config:
+
 ```bash
 gh repo clone michael-rowe/blog-post-reviewer ~/.claude/plugins/blog-post-reviewer
-```
-
-Then add the skill to Claude Code by copying the skill file:
-
-```bash
+mkdir -p ~/.claude/commands ~/.claude/agents
 cp ~/.claude/plugins/blog-post-reviewer/skills/blog-reviewer/SKILL.md ~/.claude/commands/blog-reviewer.md
+cp ~/.claude/plugins/blog-post-reviewer/agents/*.md ~/.claude/agents/
 ```
 
-Copy the agents directory into your project or a shared location where Claude Code can find them:
-
-```bash
-cp -r ~/.claude/plugins/blog-post-reviewer/agents ~/.claude/agents/
-```
-
-Copy `config.md` into any project where you want personalised reviews:
+Start a new Claude Code session afterwards so it picks up the new command and
+the four agents. Then copy `config.md` into any project where you want
+personalised reviews:
 
 ```bash
 cp ~/.claude/plugins/blog-post-reviewer/config.md ./config.md
 ```
 
+Invoke it from that project as `/blog-reviewer path/to/draft.md`.
+
+### Option 2 — install as a plugin
+
+```bash
+claude plugin marketplace add michael-rowe/blog-post-reviewer
+claude plugin install blog-post-reviewer@michael-rowe-blog-post-reviewer
+```
+
+This wires up the skill and all four agents automatically — no copying. Because
+Claude Code namespaces plugin commands, you invoke it as
+`/blog-post-reviewer:blog-reviewer path/to/draft.md`. Place `config.md` in your
+project root for personalised reviews.
+
 ## Usage
+
+Manual install:
 
 ```
 /blog-reviewer path/to/draft.md
 ```
 
-The skill reads your draft, runs four parallel review agents, and returns a
-consolidated report with a priority actions list.
+Plugin install:
+
+```
+/blog-post-reviewer:blog-reviewer path/to/draft.md
+```
+
+Either way, the skill reads your draft, runs four parallel review agents, and
+returns a consolidated report with a priority actions list.
 
 ## Configuration
 

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "michael-rowe-blog-post-reviewer",
+  "owner": {
+    "name": "Michael Rowe",
+    "url": "https://github.com/michael-rowe"
+  },
+  "plugins": [
+    {
+      "name": "blog-post-reviewer",
+      "source": "./",
+      "description": "Structured four-pass review of blog post drafts: structure, style, copy editing, and SEO."
+    }
+  ]
+}
