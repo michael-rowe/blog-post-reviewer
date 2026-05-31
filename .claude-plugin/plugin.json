@@ -1,6 +1,6 @@
 {
   "name": "blog-post-reviewer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Structured four-pass review of blog post drafts: structure, style, copy editing, and SEO. Runs four specialist agents and returns one prioritised action list.",
   "author": {
     "name": "Michael Rowe",
