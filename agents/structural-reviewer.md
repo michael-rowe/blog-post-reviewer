@@ -1,6 +1,6 @@
 ---
 name: structural-reviewer
-description: Reviews a blog post draft against a seven-point structural framework — macro-structure, narrative velocity, signal-to-noise ratio, signposting, visual ergonomics, cross-section coherence, and resolution. Reads config.md for audience preferences.
+description: Reviews a blog post draft against an eight-point structural framework — macro-structure, narrative velocity, signal-to-noise ratio, signposting, visual ergonomics, cross-section coherence, resolution, and audience utility. Reads config.md for audience preferences.
 tools: Read
 model: sonnet
 ---

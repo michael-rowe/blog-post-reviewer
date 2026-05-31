@@ -1,7 +1,7 @@
 {
   "name": "blog-post-reviewer",
   "version": "1.0.0",
-  "description": "Structural review of blog post drafts …â€”… macro-structure, narrative velocity, signal-to-noise ratio, signposting, and visual ergonomics",
+  "description": "Structured four-pass review of blog post drafts: structure, style, copy editing, and SEO. Runs four specialist agents and returns one prioritised action list.",
   "author": {
     "name": "Michael Rowe",
     "url": "https://github.com/michael-rowe"
